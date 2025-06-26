@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "fonteTitulo";
+  src: url(UpstairsCVJMgraff.ttf);
+}
+
+@font-face {
+  font-family: "fonteParagrafo";
+  src: url('Coolvetica Rg.otf');
+}
+
+.cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  background-color: #4287f5;
+  box-sizing: border-box;
+}
+
+img {
+  display: flex;
+  margin: auto;
+}
+
+.logoimg {
+  position: absolute;
+  transform: scale(0.1);
+  margin-top: 63px;
+  margin-right: 490px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.navbar {
+  display: flex;
+  gap: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px;
+  color: black;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navbar a:hover {
+  background: white;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.Titulo {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: fonteTitulo;
+  font-size: 32pt;
+}
+
+h3 {
+  margin: 0;
+  text-align: center;
+}
+
+.centralizado {
+  text-align: center;
+  margin: 0 100px;
+  font-family: fonteParagrafo;
+  font-size: 13pt;
+}
+
+.rodape {
+  display: flex;
+  justify-content: center;
+  background-color: #4287f5;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+}
+
+.rodape .action {
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+@media (max-width: 600px) {
+  .cabecalho,
+  .rodape,
+  .menu,
+  .img {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
