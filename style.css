@@ -80,6 +80,13 @@ h3 {
   text-align: center;
 }
 
+.sectionGame{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .centralizado {
   text-align: center;
   /* margin: 0 100px; */
