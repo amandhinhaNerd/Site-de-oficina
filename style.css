@@ -17,7 +17,7 @@
   justify-content: flex-end;
   align-items: center;
   padding: 20px;
-  background-color:#14eb8a;
+  background-color: #14eb8a;
   box-sizing: border-box;
 }
 
@@ -80,7 +80,7 @@ h3 {
   text-align: center;
 }
 
-.sectionGame{
+.sectionGame {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -89,7 +89,6 @@ h3 {
 
 .centralizado {
   text-align: center;
-  /* margin: 0 100px; */
   font-family: fonteParagrafo;
   font-size: 13pt;
 }
@@ -117,7 +116,13 @@ h3 {
   max-width: 1000px;
 }
 
+.topico2 {
+  display: inline-block;
+  justify-content: center;
+}
+
 @media (max-width: 600px) {
+
   .cabecalho,
   .rodape,
   .menu,
