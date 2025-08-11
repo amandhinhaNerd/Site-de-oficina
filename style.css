@@ -122,6 +122,30 @@ h3 {
   width: 100%;
 }
 
+.secaoTime{
+display: flex;
+justify-content: center;
+align-items: flex-end;
+text-align: center;
+gap: 15px;
+}
+
+
+.card{
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cardImg{
+  width: 100%;
+}
+
 @media (max-width: 600px) {
 
   .cabecalho,
