@@ -38,6 +38,7 @@ body {
   padding: 0;
   width: 100%;
   padding-top: 100px;
+  background-color: #4982ff;
 }
 
 .navbar {
@@ -97,14 +98,19 @@ h3 {
   display: flex;
   justify-content: center;
   background-color: #14eb8a;
-  padding-top: 5px;
-  padding-bottom: 5px;
   width: 100%;
   height: 100px;
   margin-top: 50px;
 }
 
 .rodape .action {
+  padding: 9.5px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.rodape .action2 {
+  padding: 25px;
   margin-right: 150px;
   margin-left: 150px;
 }
@@ -122,15 +128,15 @@ h3 {
   width: 100%;
 }
 
-.secaoTime{
-display: flex;
-justify-content: center;
-align-items: flex-end;
-text-align: center;
-gap: 15px;
+.secaoTime {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  gap: 15px;
 }
 
-.card{
+.card {
   max-width: 300px;
   display: flex;
   flex-direction: column;
@@ -141,11 +147,11 @@ gap: 15px;
   font-family: 'Poppins', sans-serif;
 }
 
-.cardImg{
+.cardImg {
   width: 100%;
 }
 
-.botaoImgJuntos{
+.botaoImgJuntos {
   background-color: transparent;
   border: none;
   display: flex;
