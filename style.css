@@ -136,7 +136,7 @@ gap: 15px;
 }
 
 .card{
-  max-width: 300px;
+  max-width: 310px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -144,18 +144,22 @@ gap: 15px;
   text-align: center;
   gap: 10px;
   font-family: 'Poppins', sans-serif;
+  font-size: 15px;
 }
 
 .indi {
-  width: 350px ;
+  width: 350px;
+  margin: 1px;
 }
 
 .indi2 {
-  width: 230px ;
+  width: 245px ;
+  margin: -35px;
 }
 
 .indi3 {
   width: 285px ;
+  margin: -45px
 }
 
 .cardImg{
