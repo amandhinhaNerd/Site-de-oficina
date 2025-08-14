@@ -14,7 +14,7 @@ function click() {
         titulos2.forEach(t => t.style.color = 'white');
     } else {
         tema = 'claro';
-        document.body.style.backgroundColor = 'white';
+        document.body.style.backgroundColor = '#B0BFF8';
         textos.forEach(t => t.style.color = 'black');
         titulos.forEach(t => t.style.color = 'black');
         titulos2.forEach(t => t.style.color = 'black');
