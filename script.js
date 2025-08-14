@@ -3,21 +3,36 @@ let tema = 'claro'
 
 const textos = document.querySelectorAll('p')
 const titulos = document.querySelectorAll('h2')
+const titulos2 = document.querySelectorAll('h3')
+const imgTema = document.querySelector('#imgTema')
+
 
 function click() {
-    console.log("aeeeee")
     if (tema === 'claro') {
         tema = "escuro"
         document.querySelector('body').style.backgroundColor = 'black'
-        for (let i = 0; i < textos.length && titulos.length; i++) {
+        imgTema.style.backgroundColor = 'white'
+        for (let i = 0; i < textos.length; i++) {
             textos[i].style.color = 'white'
+        }
+        for (let i = 0; i < titulos2.length; i++) {
+            titulos2[i].style.color = 'white'
+        }
+        for (let i = 0; i < titulos.length; i++) {
             titulos[i].style.color = 'white'
         }
+        
     } else {
         tema = 'claro'
         document.querySelector('body').style.backgroundColor = 'white'
-        for (let i = 0; i < textos.length && titulos.length; i++) {
+        imgTema.style.backgroundColor = 'tranparent'
+        for (let i = 0; i < textos.length; i++) {
             textos[i].style.color = 'black'
+        }
+        for (let i = 0; i < titulos2.length; i++) {
+            titulos2[i].style.color = 'black'
+        }
+        for (let i = 0; i < titulos.length; i++) {
             titulos[i].style.color = 'black'
         }
     }
@@ -34,6 +49,6 @@ function openModal() {
     modal.showModal();
 }
 
-function closeModal(){
+function closeModal() {
     modal.close();
 }
