@@ -4,6 +4,7 @@ let tema = 'claro';
 const textos = document.querySelectorAll('p');
 const titulos = document.querySelectorAll('h2');
 const titulos2 = document.querySelectorAll('h3');
+const imgTema = document.querySelector('#imgTema'); 
 
 function click() {
     if (tema === 'claro') {
@@ -12,12 +13,18 @@ function click() {
         textos.forEach(t => t.style.color = 'white');
         titulos.forEach(t => t.style.color = 'white');
         titulos2.forEach(t => t.style.color = 'white');
+
+      
+        imgTema.style.backgroundColor = 'white';
     } else {
         tema = 'claro';
         document.body.style.backgroundColor = '#B0BFF8';
         textos.forEach(t => t.style.color = 'black');
         titulos.forEach(t => t.style.color = 'black');
         titulos2.forEach(t => t.style.color = 'black');
+
+        
+        imgTema.style.backgroundColor = 'transparent';
     }
 }
 
